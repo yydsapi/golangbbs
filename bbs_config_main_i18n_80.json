@@ -1,0 +1,30 @@
+{
+  "RunMode":"debug",
+  "IPAddr":"0.0.0.0",
+  "HTTPPort":"80",
+  "PageSize":25,
+  "ReadTimeout":240,
+  "WriteTimeout":360,
+  "COOKIE_MAX_AGE":14,
+  "Precompile":1,
+  "StaticDir":"/usr/local/golangbbs/static",
+  "BbsUploadPath":"/disk/data/gomedia",
+  "DbType":"sqlite3",
+  "DominoName":"www.yydsapi.com",
+  "DbConfigs":{
+    "MySqlConnStr":"golang:a123456@tcp(127.0.0.1:3306)/golangbbsi18n?charset=utf8mb4",
+    "MySqlLimit":1500,
+    "Sqlite3DbPath":"/usr/local/golangbbs/sqlite.db"
+   },
+  "SendMailConfigs":{
+    "SMTPUser":"limon",
+    "NickName":"limon",
+    "SMTPPassword":"",
+    "MailServer":"smtp.xx.com"
+   },
+  "BbsLimits":{
+    "UploadMedia":500,
+    "UploadPhoto":5,
+    "UploadElse":50
+   }
+}
